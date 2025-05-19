@@ -18,10 +18,22 @@
 
 ## 🛠️ Technologies Used
 
-- **Frontend**: HTML, CSS, JavaScript
-- **Backend**: Python (Flask)
-- **Graph Visualization**: D3.js or Cytoscape.js
-- **NLP**: spaCy (or similar library)
+- **Frontend**  
+  - HTML, CSS, JavaScript  
+  - [Cytoscape.js](https://js.cytoscape.org/) for interactive graph rendering  
+
+- **Backend**  
+  - Python 3  
+  - [FastAPI](https://fastapi.tiangolo.com/) & Uvicorn for the web server  
+  - [PyPDF2](https://pypi.org/project/PyPDF2/) for PDF text extraction  
+  - [Pydantic](https://pydantic-docs.helpmanual.io/) for data validation  
+  - python-dotenv for environment variable management  
+
+- **Graph Extraction**  
+  - OpenAI ChatCompletion API (e.g. `gpt-3.5-turbo`) for entity & relationship extraction  
+
+- **Deployment**  
+  - Render.com (Docker-compatible hosting)
 
 ---
 
