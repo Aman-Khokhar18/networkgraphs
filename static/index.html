@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document → Knowledge Graph</title>
+  <!-- Your stylesheet -->
+  <link rel="stylesheet" href="/static/css/style.css">
+  <!-- Cytoscape core library (must load before your code) -->
+  <script src="https://unpkg.com/cytoscape@3.25.0/dist/cytoscape.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Upload a Document</h1>
+
+    <input type="file" id="fileInput" accept=".pdf,.txt"/>
+    <button id="uploadBtn">Extract Graph</button>
+    <div id="status"></div>
+    <div id="cy"></div>
+  </div>
+
+  <!-- Your app logic (served from /static) -->
+  <script src="/static/js/app.js"></script>
+</body>
+</html>

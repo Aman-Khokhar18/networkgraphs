@@ -1,0 +1,18 @@
+body, html {
+  margin: 0; padding: 0; font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+.container {
+  max-width: 900px; margin: 2rem auto; padding: 1rem; background: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 8px;
+}
+#cy {
+  width: 100%; height: 600px; border: 1px solid #ddd; margin-top: 1rem;
+}
+#status { margin-top: 0.5rem; color: #444; }
+button {
+  margin-left: 1rem; padding: 0.5rem 1rem; font-size: 1rem;
+  border: none; border-radius: 4px; background: #007BFF; color: white;
+  cursor: pointer;
+}
+button:disabled { background: #999; cursor: not-allowed; }
